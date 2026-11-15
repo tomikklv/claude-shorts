@@ -1,0 +1,37 @@
+# Credentials and personal config: never commit
+client_secret*.json
+token.json
+youtube.json
+uploads.jsonl
+.env
+.env.*
+streamers.json
+.config/
+
+# Media and pipeline outputs
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.wav
+*.ass
+*.part
+*_cover.jpg
+shorts/
+render/
+clips/
+clips_proxy/
+qc/
+review/
+covers/
+out/
+tmp/
+
+# Dependencies and caches
+node_modules/
+.remotion/
+venv/
+.venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,12 @@
+{
+  "_help": "One entry per streamer. Key = the name you type in '/shorts gta <link> <streamer>' (lower case, no spaces). facecam = 'x,y,w,h' as fractions of the frame (0-1), or null to auto-detect. language = caption language code (en, sk, ...) or null to auto-detect. Your own copy lives in ~/.config/claude-shorts/streamers.json (never commit it).",
+  "examplestreamer": {
+    "name": "Example Streamer",
+    "aliases": ["example"],
+    "facecam": "0.72,0.55,0.28,0.45",
+    "language": "en",
+    "twitch": "https://www.twitch.tv/CHANNEL_NAME",
+    "youtube": "https://www.youtube.com/@CHANNEL_NAME",
+    "notes": "Measure the facecam box from one frame of the stream and store it here."
+  }
+}
